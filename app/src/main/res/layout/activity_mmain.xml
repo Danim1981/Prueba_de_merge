@@ -12,10 +12,24 @@
         android:layout_width="278dp"
         android:layout_height="67dp"
         android:layout_marginTop="50dp"
+        android:background="@color/material_dynamic_neutral60"
         android:text="Texto en main"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/material_dynamic_neutral60"/>
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="341dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="156dp"
+        android:background="@color/teal_200"
+        android:fontFamily="cursive"
+        android:text="Texto en rama 2"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
